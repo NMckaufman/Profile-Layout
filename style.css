@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header {
+    background-color: rgba(112, 99, 84, 0.644);
+    min-height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul > li {
+    margin: 20px;
+}
+.sign-out {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 220px;
+}
+footer {
+    background-color: darkorchid;
+    min-height: 200px;
+    width: 440px;
+    margin-left: 10px;
+}
+h1 {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+img {
+    border-radius: 50%;
+    width: 100%;
+    min-height: 100%;
+}
+p {
+    padding-left: 10px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+.myname {
+    margin-top: 45px;
+}
+.profile-image {
+    width: 90px;
+    background-color: white;
+    min-height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    background-color: coral;  
+}
+
+.inner-col {
+    min-height: 50px;
+    background-color: firebrick;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 20px 10px;
+    background-color: aquamarine;
+    flex: 3;
+    position: relative;
+    min-height: 300px;
+}
+
+.col-3 {
+    flex: 2;
+    background-color: blue;
+    min-height: 120px;
+    margin: 20px 10px;
+}
+
+.FH1 {
+    background-color: dimgray;
+    height: 50px;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+   flex-direction: row;
+}
